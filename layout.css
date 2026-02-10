@@ -1,0 +1,58 @@
+header {
+    color: white;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    height: 100%;
+    background-color: grey;
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    height: 50%;
+    background-color: grey;
+    padding-top: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.section {
+    margin: auto;
+    background-color: rgb(196, 190, 190);
+    height: 425.7px;
+    color: blue;
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+.Londondesign {
+    align-content: center;
+    background-color: rgb(241, 23, 23);
+    height: 425.7px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    float: right;
+    width: 70%;
+}
+
+.racdesign {
+    margin-top: 10px;
+}
+.Londondesign p {
+margin-left: 10%;
+margin-right: 10%;
+}
+a {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.Londondesign h2 {
+    margin-top: 5%;
+    margin-left:10%;
+}
