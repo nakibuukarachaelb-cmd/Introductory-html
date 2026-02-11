@@ -32,7 +32,18 @@
     </aside>
     <footer>Footer</footer>
     <p>adding a responsive image to the layout elements</p>
-    <img src="myimagestrial/chicken escape.gif" width="1000">
+    <img src="myimagestrial/chicken escape.gif" width="100%">
+    <!-- the 100% width allows the picture to be at 100% of the screen no matter the screen size  -->
+    <p>making the image larger than its original size using the max-width attribute</p>
+    <img src="myimagestrial/chicken escape.gif" style="max-width: 100%;">
+    <!-- using the picture element to allow the image display several source sets -->
+     <br>
+    <picture>
+        <source srcset="allimages/car.jpg" media="(max-width: 600px)">
+        <source srcset="allimages/car.jpg" media="(max-width: 1000px)">
+        <source srcset="car.jpg">
+        <img src="allimages/car.jpg" alt="car">
+    </picture>
 </body>
 
 </html>
